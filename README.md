@@ -1,5 +1,22 @@
 # KHO Bot public research
 
+Founder follow-up19November: include paired Before (old flow) / After (new flow) diagrams under Technical changes and paired Before (old strategy flow) / After (new strategy flow) under exact top-level # Trading-strategy changes, with matching nodes, exact base/head references and explicit unchanged labels on BOTH strategy diagrams when applicable. Keep Area | Before | After | Effect tables, conceptual/implemented/deployed distinctions and sourced measurements only. Every actionable Future work item links a duplicate-checked native Notion task with owner, scope, status, acceptance and PR backlink through the existing COO/knowledge owner; restricted work remains proposed/awaiting approval. This update creates no Notion tasks or operational authority. Public guidance remains public-safe. Parser/GitHub rendering and independent QA remain unrun; scoped author checks do not establish production readiness.
+
+
+## Contributing PR descriptions
+
+Use the [default PR author template](.github/pull_request_template.md) before independent QA.
+Describe actual technical and strategy effects (or unchanged), before/after limits, actual vs
+unrun checks, configuration names only, rollout/rollback, verification, maintenance/failure
+response and future work. Distinguish merged source, fictional/simulated previews and verified
+production. Keep private research and account data out of this public repository and its PRs.
+Template organization is proposed for owner review; existing publication approval is unchanged.
+This template/docs draft changes no report bytes or trading behavior. Scoped Markdown/link,
+coverage and diff/whitespace checks pass; browser/export/payload revalidation is NOT RUN because
+the page/exporter are unchanged. Independent QA is pending; no site deployment is claimed.
+
+## Published research
+
 [Open the published report](https://maidh91.github.io/kho-bot-public/) or open [index.html](index.html) directly from disk. The file is self-contained; no server or downloads are needed. Changes on a PR branch are local previews until merged and deployed.
 
 The November 2026 campaign shows three preset objectives and five representative choices per preset. Overview cards, findings, adverse cost comparisons and sortable results are preserved. Each choice opens:
@@ -16,3 +33,5 @@ Exact configuration files, strategy rules, source/input identities, raw journals
 The exporter and regression tests live in the private research repository, alongside the shared report renderer. Run `npm run report:public -- --archive studies/<study>/index.html --template /path/to/kho-bot-public/index.html --output /path/to/new-public.html` there. It validates the reviewed public selections and rounded summary against the source, then builds an explicit allowed-field projection. It refuses to overwrite output and never commits, pushes or deploys. Review the new HTML, including its compressed payload, before replacing this page. Adding a new campaign or changing the fifteen selections needs a reviewed overview/summary template first.
 
 Verification: all 65,476 recorded exit values reconcile with the private source. Offline Chrome checks cover filtering, numeric sorting, charts, adjustable rolling windows, trade pagination and the row-detail modal. No new strategy search or backtest is part of this presentation update.
+
+ When Notion is inaccessible to an agent, use the repository's existing task conventions/IDs as a readable fallback with a stable task ID, owner, bounded scope, status, acceptance criteria and PR backlink; link that task from this PR. Reconcile/cross-link with Notion through Jinbe/COO when accessible, without conflicting duplicates. Repository tasks authorize no future implementation.
