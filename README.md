@@ -1,5 +1,19 @@
 # KHO Bot public research
 
+## Contributing PR descriptions
+
+Use the [default PR author template](.github/pull_request_template.md) before independent QA.
+Describe actual technical and strategy effects (or unchanged), before/after limits, actual vs
+unrun checks, configuration names only, rollout/rollback, verification, maintenance/failure
+response and future work. Distinguish merged source, fictional/simulated previews and verified
+production. Keep private research and account data out of this public repository and its PRs.
+Template organization is proposed for owner review; existing publication approval is unchanged.
+This template/docs draft changes no report bytes or trading behavior. Scoped Markdown/link,
+coverage and diff/whitespace checks pass; browser/export/payload revalidation is NOT RUN because
+the page/exporter are unchanged. Independent QA is pending; no site deployment is claimed.
+
+## Published research
+
 [Open the published report](https://maidh91.github.io/kho-bot-public/) or open [index.html](index.html) directly from disk. The file is self-contained; no server or downloads are needed. Changes on a PR branch are local previews until merged and deployed.
 
 The November 2026 campaign shows three preset objectives and five representative choices per preset. Overview cards, findings, adverse cost comparisons and sortable results are preserved. Each choice opens:
