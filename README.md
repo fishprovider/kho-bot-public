@@ -1,6 +1,6 @@
 # KHO Bot public research
 
-[Open the published report](https://maidh91.github.io/kho-bot-public/) or open [index.html](index.html) directly from disk. The file is self-contained; no server or downloads are needed. Changes on a PR branch are local previews until merged and deployed.
+[Open the published report](https://fishprovider.github.io/kho-bot-public/) or open [index.html](index.html) directly from disk. The file is self-contained; no server or downloads are needed. Changes on a PR branch are local previews until merged and deployed.
 
 The November 2026 campaign shows three preset objectives and five representative choices per preset. Overview cards, findings, adverse cost comparisons and sortable results are preserved. Each choice opens:
 
